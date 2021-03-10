@@ -151,10 +151,11 @@ nav {
 #menu-logo{
         margin-top: 10px;
         order: 0;
-
-
 }
-
+#menu-logo img {
+          width: 52px;
+          height: 52px;
+}
 
 /* Body */
 main{
@@ -318,7 +319,7 @@ h1{
 
 .logo-box{
         margin: auto;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
 }
 .logo-box img{
         width:150px;
@@ -514,15 +515,17 @@ h1{
         flex-direction: row;
         margin-left: auto;
         margin-right: auto;
-        justify-content: space-around;
+        justify-content: center;
 }
 
 .logo-container{
-        padding: 20px;
+
+
 }
 
 .logo-box{
-        margin: auto;
+  margin-top:20px;
+
 }
 .logo-box img{
         width:150px;
@@ -595,6 +598,9 @@ body {
           flex-wrap: nowrap;
           background: none;
           justify-content: center;
+          width: 70%;
+          margin-left: auto;
+          margin-right: auto;
     }
 
 .page {
@@ -602,19 +608,28 @@ body {
         position: relative;
         display: block;
         width: auto;
-        padding-left: 0px;
-        margin-left: 30px;
-        margin-right: 30px;
+        padding-right: 20px;
+        margin-left: auto;
+        margin-right: auto;
         letter-spacing: 3px;
+    }
 
-    }
+.page a {
+        padding-left: auto;
+        padding-right: auto;
+}
 #menu-logo{
-        margin-left: 30px;
-        margin-right: 30px;
+        margin-left: auto;
+        margin-right: auto;
+
       }
-.menu a {
-        padding: 5px;
-    }
+
+#menu-logo img {
+      width: 60px;
+      height: 60px;
+}
+
+
 
 .submenu-active  {
         display: block;
@@ -660,7 +675,7 @@ h1{
 .para{
         font-family: 'corbel', sans-serif;
         width: 90%;
-        text-align: left;
+        text-align: center;
         font-size: 18px;
         margin-bottom: 10px;
         margin-top: 20px;
@@ -792,25 +807,21 @@ h1{
 #logoFlex{
         display: flex;
         width:80%;
-        flex-wrap: wrap;
         flex-direction: row;
-        margin-left: auto;
-        margin-right: auto;
+        flex-wrap: wrap;
         justify-content: space-around;
+        align-items: center;
+
 }
 
 .logo-container{
-      padding: 40px;
+        margin: 20px;
+
 }
-#topLogo{
-      margin-top: 40px;
-}
-.logo-box{
-        margin-left: auto;
-        margin-right: auto;
-}
+
+
 .logo-box img{
-        width:150px;
+        width:170px;
 }
 
 .testimonials-container{
@@ -882,26 +893,37 @@ h1{
             flex-wrap: nowrap;
             background: none;
             justify-content: center;
-            width: 70%;
+            width: 50%;
             margin-left: auto;
             margin-right: auto;
       }
 
   .page {
-          order: 0;
-          position: relative;
-          display: block;
-          font-size: 20px;
-          width: auto;
-          text-align: center;
-          margin-left: 50px;
-          margin-right: 50px;
-
+            order: 0;
+            position: relative;
+            display: block;
+            width: auto;
+            padding-right: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            letter-spacing: 3px;
+            font-size: 20px;
       }
+
+  .page a {
+            padding-left: auto;
+            padding-right: auto;
+  }
   #menu-logo{
-          margin-left: 50px;
-          margin-right: 50px;
+            margin-left: auto;
+            margin-right: auto;
+
         }
+
+  #menu-logo img {
+            width: 73px;
+            height: 73px;
+  }
 
   .toggle {
           display: none;
@@ -1085,7 +1107,7 @@ h1{
           margin-right: auto;
   }
   .logo-box img{
-          width:150px;
+          width:200px;
   }
 
   .testimonials-container{
